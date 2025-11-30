@@ -1,0 +1,5 @@
+{
+  "name": "VK Trends Analyzer",
+  "description": "A smart analytics tool powered by Gemini to analyze VKontakte communities, find popular posts within specific date ranges, and visualize engagement trends.",
+  "requestFramePermissions": []
+}
