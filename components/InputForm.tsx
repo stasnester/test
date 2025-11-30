@@ -177,7 +177,8 @@ const InputForm: React.FC<InputFormProps> = ({ onAnalyze, loadingState }) => {
               <ol className="list-decimal list-inside space-y-2">
                 <li>Go to <a href="https://dev.vk.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">dev.vk.com/my/apps</a></li>
                 <li>Click <strong>"Create App"</strong> (use 'Standalone App' or 'Website').</li>
-                <li>Go to <strong>Settings</strong> -> <strong>"Service Access Key"</strong>.</li>
+                {/* Changed -> to &rarr; to fix JSX syntax error */}
+                <li>Go to <strong>Settings</strong> &rarr; <strong>"Service Access Key"</strong>.</li>
               </ol>
             </div>
           )}
